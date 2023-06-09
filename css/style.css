@@ -1378,10 +1378,27 @@ th {
 .footer-bottom .template-by p a:hover {
     color: #ffffff;
 }
+table{
+    background-color: #111111;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color: white;
+    width: 60%;
+}
+tr th{
+    padding-left: 8px;
+    background-color: #353535;
+}
+tr td{
+    padding-left: 8px;
+}
 
 @media (max-width: 768.98px) {
     .footer-bottom .copyright,
     .footer-bottom .template-by {
         text-align: center; 
     } 
+    table{
+        margin-left: 0;
+    }
 }
